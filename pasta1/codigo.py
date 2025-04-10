@@ -50,7 +50,13 @@ def main():
 
         if opcao == '1':
             registrar_venda()
-        
+        elif opcao == '2':
+            print ("Algo deu errado")
+        elif opcao == '3':
+            registrar_venda ()
+        else:
+            print("Algo está dando certo")
+            break
 
 # Executando o programa
 if __name__ == "__main__":
