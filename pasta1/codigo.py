@@ -50,7 +50,13 @@ def main():
 
         if opcao == '1':
             registrar_venda()
-        
+        elif opcao == '2':
+            exibir_comissoes()
+        elif opcao == '3':
+            print("Saindo do programa...")
+            break
+        else:
+            print("Opção inválida. Tente novamente.")
 
 # Executando o programa
 if __name__ == "__main__":
