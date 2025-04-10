@@ -58,6 +58,8 @@ def main():
         else:
             print("Opção inválida. Tente novamente.")
 
+
+
 # Executando o programa
 if __name__ == "__main__":
     main()
